@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人職涯作品集 - 網頁設計師</title>
+    <style>
+        body {
+            font-family: "Microsoft JhengHei", Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* 區塊樣式 */
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .highlight {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        .job-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-left: 5px solid #3498db;
+            background-color: #f9f9f9;
+        }
+
+        .skills {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .tag {
+            background: #3498db;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>個人職涯探索</h1>
+        <p>目標職位：網頁設計師</p>
+    </header>
+
+    <div class="container">
+        <section id="career-test">
+            <h2>📊 職涯測驗分析</h2>
+            <p><strong>測驗工具：</strong>UCAN 大專院校就業職能平台興趣何倫碼 (Holland Code)</p>
+            <p><strong>測驗結果：</strong><span class="highlight">RCI (實際型、慣例型、研究型)</span></p>
+            <p>根據測驗結果，我展現出高度的邏輯思考與實作能力，對於系統維護與疑難排解有著濃厚的興趣，這與 MIS 需要穩定維護資訊設備的特質不謀而合。</p>
+        </section>
+
+        <section id="job-info">
+            <h2>🔍 目標職缺說明</h2>
+            <div class="job-card">
+                <h3>公司名稱：<a href="https://www.mifanlife.com/?srsltid=AfmBOorqjIDdnbbz5v5xuEOjgVqvl0doR9jTI4IqoBBmZ1niw-TCCQpG">米粉生活科技有限公司</a></h3>
+                <p><strong>職務名稱：</strong>UIUX網頁設計師</p>
+                <p><strong>工作內容：</strong></p>
+                <ul>
+                    <li>設計和優化網站/APP/行銷活動頁等的用戶體驗</li>
+                    <li>與行銷企劃及工程師跨部門溝通合作</li>
+                    <li>能夠制定適合用戶的UI設計流程與規範</li>
+                    <li>能夠獨立處理各類設計風格與解決方案</li>
+                    <li>能廣告行銷素材處理</li>
+                    <li>網頁視覺設計、維護、CIS相關視覺設計</li>
+                    <li>其他主管交辦事項</li>
+                </ul>
+                <p><strong>學歷要求:</strong>大學、碩士</p>
+            </div>
+        </section>
+
+        <section id="autobiography" class="bg-white p-8 rounded-xl shadow-sm border">
+    <h2 class="text-2xl font-bold mb-4 text-gray-800">📄 自傳與應徵動機</h2>
+    <div class="prose text-gray-700 leading-relaxed">
+        <p>
+            您好，我是 <strong>吳柏慶</strong>。就讀於靜宜大學資管系，對於網頁設計與前端開發有著深厚的興趣。
+            根據 UCAN 診斷，我的職業性格為 <span class="text-blue-600 font-bold">RCI (實用、事務、研究)</span>。
+        </p>
+        
+        <h3 class="font-bold mt-4 text-gray-800">為何適合此工作：</h3>
+        <ul class="list-disc ml-5">
+                我的何倫碼結果顯示我具備「慣例型 (C)」的穩定特質，這讓我在面對重複性高的巡檢與備份作業時能保持耐心與細心。同時，「研究型 (I)」讓我能主動搜尋技術文件，解決系統異常。
+        </ul>
+    </div>
+</section>
+    </div>
+    <div style="text-align: center; margin-top: 20px;">
+    <a href="My.html" style="color: #3498db; text-decoration: none;">← 回到自我介紹首頁</a>
+</div>
+
+    <footer>
+        <p>© 2026 職涯規劃練習 - 部署於 Vercel</p>
+    </footer>
+
+</body>
+</html>
